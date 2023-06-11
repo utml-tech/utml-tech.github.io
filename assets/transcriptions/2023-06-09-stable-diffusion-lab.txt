@@ -1,0 +1,1966 @@
+ Um, what I wanted to show, me and Dipesh, we, we created the, the GitHub for, so how
+ does it work?
+ Like I have, this is my GitHub, but I have your organizations here and then we have utml.tech.
+ I took the liberty of putting one of the, like, we went to Dali, free Dali, and, uh,
+ we, we took, we, I just put the, like, technology and Sakura in Japan and stuff, and I created
+ this.
+ It looks cool.
+ I was playing with the Firefly and I said, but it's so slow.
+ I think I have to pay to get, and I think also the university pays a, uh, Adobe Creative
+ account.
+ Adobe?
+ Yeah, but I think you have to use, like, this, this library computer.
+ Oh, I don't mind.
+ Yeah, but, uh, because they have this Adobe Express that you can use stuff in the browser
+ and they have a, but it's absurdly slow.
+ Like I made one prompt and it took like 10 minutes to create four.
+ The other time was like 20 seconds.
+ Not even that many.
+ Anyway, we also have the email now.
+ Um, uh, yeah, so this is us.
+ I also, something else that we started, we only have like two repositories.
+ Also, I think I didn't add Tunga yet.
+ Do you have your, your, it can be email, full name.
+ I think she sent the email.
+ There's a lot of Tunga lock.
+ Yeah, anyway, I can send you, uh, send me the email and I can, uh, try it later.
+ Anyway, I, uh, we created two repositories.
+ One is the websites.
+ It's very simple to set up.
+ So we just created it to, let me, let me, let me just do, um, people.
+ Invite member.
+ Oh no, I don't have the app here.
+ Okay.
+ Okay.
+ Invitation sent.
+ So going back to what I was saying, we also have the website.
+ We can, I was thinking like, uh, we can probably add a lot of stuff there.
+ Like even this, this audio, this stuff you can just put there.
+ It doesn't have anything there.
+ No, it actually only has my name, but we can, oh my God, send an email.
+ We can, uh, definitely take this stuff out later.
+ And then I also created this repository, but I, like, it doesn't have anything.
+ It's just like for files that we, we might generate today.
+ Yeah.
+ Uh, okay.
+ So about today, the goal is basically like following nice approach.
+ Yeah.
+ Let's just like try to make something similar together.
+ Uh, so basically just to remember, what are we going to do?
+ We, we are going to have to download the stable diffusion web UI.
+ Okay.
+ We are going to download the control net extension and, um, we're going to have
+ download some models.
+ Uh, I also played around with that and with the models, we, we then going to
+ have to make a V uh, select some internet.
+ You can just download for YouTube for now, I think.
+ Uh, and then get this video and, uh, generate the, like, I think you have to
+ have, have to like separate, split in multiple files, multiple images.
+ Yeah.
+ And then from these images, you just, um, just apply the batch in the, so one
+ thing, and that's what I want to ask you, like working in a team, I didn't
+ think it would be productive if like one person, like everyone did the same
+ thing at the same time because we were here to, I mean, maybe if it was like
+ everyone did in their homes and then we would come together to compare, it
+ would be something.
+ But I think maybe for today we could do something more like pair programming
+ and because everyone has access to the GitHub, you can just, uh, everyone
+ like clone the repository, add their changes, and we could try here together.
+ So that's actually what I'm going to do.
+ I'm going to get this, this repository.
+ So that's why I think it's important for everyone to have the repository.
+ Like just get the repository.
+ I just opened the terminal here.
+ Let me go to the developer folder.
+ Also, if, if someone doesn't want to do it, we can just do pair programming.
+ Pair programming is just like one guy does stuff and the other, oh, but you
+ could do this or you could do that, you know, it's like we think together, but
+ only one person is typing, you know?
+ Uh, so I have my stuff here.
+ Let me just, let me just go to this.
+ And then I can just do git clone.
+ I think this works.
+ Yes.
+ Um, what is the name again?
+ StableDiffusionQuick.
+ I'm going to open VS Code here.
+ So about this, I also want to do one thing.
+ And that's why I want to test this out.
+ I actually did it, uh, part of this on the server.
+ Because if I do it on my computer, it's going to explode.
+ It's basically going to explode.
+ Actually, it opened the wrong one.
+ But we can, we can start from this.
+ Because I want to show something that you guys might not know.
+ I didn't do like everything, but I just want to set up on the, on the other
+ computer to set, to see it, it run.
+ But, uh, let me actually use, I actually don't know what to do actually.
+ Yeah.
+ Because, because actually I, I, I got the folder here, but I'm not going to
+ use it locally in the end.
+ Maybe just for some stuff, but okay.
+ So what I'm going to do, uh, so first of all, there's an extension here.
+ Is it too small?
+ Let me see if I can increase the, increase the size.
+ Okay.
+ Now I got it.
+ Now I got it.
+ It's, it's still loading the, let me just do something here.
+ Because this thing is really, I don't know what to do.
+ Okay.
+ Yeah, so that's what I want to show.
+ So there is this, this remote SSH, uh, extension in VS Code.
+ Maybe some of you have worked with this before.
+ So in the CV lab, we have these, these machines.
+ I already have it connected here, set it up.
+ So I'm just going to open it.
+ Uh, let's see, connecting current window, connecting new window,
+ connecting current window.
+ So it's connecting.
+ Downloading the VS Code server, setting up.
+ Okay.
+ Okay.
+ So I think it was this machine.
+ Just wait for me.
+ This thing is a bit, it takes a while because it's, uh.
+ So I actually already have the folder here.
+ But I, I want to try to do it from the ground up.
+ Yeah, because you can see I already have this stable diffusion web UI stuff here.
+ Um, so just, just so that you guys know.
+ This, this machine has, has three GPUs.
+ NVIDIA RTX 8500.
+ No one is using it right now.
+ As you can see, it's empty.
+ Each one has 25 gigabytes, uh, 24 gigabytes.
+ So let's start this.
+ Uh, stable diffusion web UI.
+ Okay.
+ First step.
+ This is the one, this is the one.
+ Click on code.
+ Let's clone it.
+ Uh, I just don't want to erase the other ones.
+ So I'm going to first move this one.
+ Stable diffusion web UI to tasks.
+ Yeah, just rename it.
+ So, git clone.
+ Okay.
+ Uh, stable diffusion web UI.
+ Let's check.
+ Okay, everything here.
+ So I'm going to open the folder.
+ Stable diffusion web UI.
+ This is the first time we did this.
+ It takes some time to set up, but after it saves the configuration, it just opens directly in the folder.
+ Um, okay.
+ So, uh, we can see the instructions here.
+ It's not, it's not hard to set it up.
+ But you basically have to, where is it?
+ You have to install Python 3 and this Python 3 app.
+ And he also says you can just run this file.
+ It's also an option to just run it.
+ But, uh, I already did the git clone.
+ So, like, let me just see what happens if I just do this.
+ Because it's probably going to generate an error.
+ And then we have to work on this.
+ Damn.
+ Create new terminal.
+ Okay.
+ I have everything here.
+ I have the file.
+ There's the readme.
+ There's a lot of stuff.
+ And as you can see, there is this web UI.sh.
+ So, web UI.
+ Okay.
+ Okay, so it's downloading PyTorch locally, as you can see.
+ One thing, one good thing of using the, maybe not right now, but usually the internet there is very fast in the server.
+ Like, sometimes it goes for 80 megabytes and then it goes down again.
+ One thing actually that is going to help, and I'm going to do this, is if we use something that is called dead container.
+ I don't know if it's a good idea to do this now.
+ In VS Code, you can just SSH into a folder or you can SSH into the computer and then open a Docker.
+ I'm not sure if you guys have experience with Docker.
+ I have used it twice.
+ You have used it?
+ Yeah.
+ Yeah, because the Docker file basically, it generates an isolated environment for you to use.
+ So, whenever I have a project, I don't do this.
+ I don't install PyTorch on the machine or stuff.
+ I mean, actually, it's using VM here.
+ Yeah.
+ But...
+ You're already creating a virtual environment.
+ But, like, you see here, I cannot locate tcmalloc, for instance.
+ This is a library they have to install in Ubuntu.
+ But I don't have administrative privileges in this machine.
+ So, with Docker, I could install this library.
+ We can do this later.
+ Let's just make it work first.
+ Yeah.
+ Then we can install in Triton.
+ Installing pillow request numpy.
+ As you can see, PyTorch is by far the most heavy.
+ It has one gigabyte or something.
+ Okay.
+ It's installing.
+ Because, basically, this file here, I took the liberty of reading it a bit.
+ It basically identifies what is your environment.
+ And then, like, set up some stuff.
+ You know.
+ It's okay.
+ It's a...
+ This part takes a while.
+ Also, this is also part of using Docker.
+ Like, if I'm doing live coding.
+ No, it's okay.
+ Okay.
+ It can take a long time.
+ Yeah.
+ Okay.
+ So, now it's installing another library.
+ Okay.
+ Let me see.
+ GF.
+ But, anyway.
+ One thing that I think is important, also, is that Nige told me about this thing.
+ This website that has these models.
+ Yeah.
+ Which are, like, fine tunings over stable diffusion.
+ So, you just download this model here.
+ And then, they have, like...
+ Yeah.
+ Like, here.
+ And then, you can get the prompts and the stuff.
+ Like, I think these are from different models.
+ I don't know.
+ Is this from the same one?
+ Because they also use some Loras.
+ Loras is kind of a small modular module that you append to your model.
+ And it creates, like, even more refinements.
+ Okay.
+ Okay.
+ It's installing the stuff.
+ There's a lot of kinds of...
+ Yeah.
+ Yeah.
+ It's not exactly safe for work.
+ I don't know.
+ I like this one.
+ It's very different.
+ It doesn't look like anime, actually.
+ Yeah.
+ It looks like Hellboy, but I'm not sure.
+ No, it's...
+ Yeah, it's merged.
+ Yeah.
+ It's definitely...
+ It's anime Hellboy.
+ Yeah, it's definitely Hellboy.
+ But...
+ Hellboy has a very different face.
+ And the horns are...
+ Yeah.
+ No, one of the horns is broken, but his hands are the same.
+ Ah, it's actually hip, but here.
+ Hellboy.
+ Portrait of muscular Hellboy man with no horn.
+ Wears coat jacket in middle of altar.
+ With group satanic devil worshipper at night.
+ Sword of blue ghosts.
+ Ah, this thing behind.
+ You see?
+ Dim light, green light, yellow magic energy, blue aura, dramatics.
+ Oh, you see I used the LoRa?
+ This is the LoRa.
+ I didn't actually try this.
+ LoRa is a technique that...
+ Basically, you have the stable diffusion.
+ And then you fine tune the whole model to this set of mixes, like the anime scene.
+ But you can have...
+ Like, I can say variations.
+ Like, I can create...
+ I can get like 20 Hellboy images.
+ Yeah.
+ And create a module that now knows...
+ That are more specific on Hellboy.
+ And it's very small, very light.
+ It's like 30 megabytes.
+ And the model would be like 3 gigabytes.
+ It's actually...
+ Mathematically speaking, it's like you have the weights.
+ And these are delta weights.
+ So, it's like weights plus some delta.
+ Okay.
+ So, it's very small.
+ And he used two LoRa's here.
+ You have to download these LoRa's.
+ I think also.
+ To use them.
+ Okay.
+ So, it's installing the first model here.
+ It didn't find...
+ Xformers...
+ Xformers would be good for us to use.
+ Xformers is a library that has fast transformers.
+ I could actually install it in another...
+ And just do...
+ Source.vn.bin.activate.
+ So, we are inside the Python.
+ We are using Python 3.9.
+ As you can see.
+ This was the full problem.
+ I like to use the 3.10.
+ If it's possible.
+ Anyway.
+ Almost done.
+ To download this model.
+ Let me show what I did.
+ Because it's actually good.
+ One thing that I like to do here.
+ Create my own file.
+ I can also use the command line.
+ Just make file or something.
+ And add my own commands.
+ To remind me.
+ Basically.
+ What I did first was...
+ WebUI.sh.
+ And then I did...
+ Source.vn.bin.activate.
+ Sorry.
+ Activate.
+ Then I did...
+ pip install xformers.
+ Then I did...
+ I want to install this thing.
+ If I click here.
+ It's going to install on my computer.
+ So, what I do is...
+ I copy the link address.
+ And I do a wget of this.
+ You know.
+ This command is basically...
+ I hope it has installed in here.
+ Ok.
+ It seems like it's running.
+ Let me take a look.
+ This is a good thing about using VS Code.
+ It just finds the addresses.
+ Because this thing basically exports to a port.
+ In the SSH machine.
+ But VS Code finds...
+ Oh.
+ You were using this port.
+ So, let me...
+ So, as you can see.
+ It already has this.
+ Let's just test something.
+ A green hill.
+ I don't know.
+ Green hill.
+ Ok.
+ It was fast.
+ As you can see.
+ It's using the server.
+ It's computer.
+ Yeah.
+ It's using the server.
+ Otherwise...
+ You can actually check this.
+ Let me show you.
+ You can see there are 3 GPUs.
+ The command is using 6 gigabytes of...
+ This is RAM memory.
+ Around 2 gigabytes.
+ When I...
+ A green hill.
+ A sonic running.
+ So, if I do generate.
+ Pay attention to this thing.
+ It's probably going to have a spike.
+ You saw.
+ It got...
+ It was very quick.
+ But it got a spike.
+ That's Sonic.
+ Maybe.
+ And then you can like increase the width.
+ I don't know.
+ It can get really big.
+ Probably this is going to make it...
+ I don't know if it's going to overflow or not.
+ No.
+ Let me just check.
+ Oh.
+ It went to 15 gigabytes.
+ See?
+ It's still running.
+ I didn't finish.
+ The GPU is almost 100%.
+ It never gets to 100.
+ But it's...
+ I understand this is 100%.
+ 5 minutes.
+ It's slow.
+ For me, I can't go beyond like...
+ No, but this is like...
+ This is like 4...
+ No, not 4K, I think.
+ But it's more than fully deep to generate one image only.
+ And it has 20 steps also.
+ So, you can see like...
+ It can get...
+ I'm not going to do this, of course.
+ I don't know what happens if I interrupt, but...
+ Let me do 512 and 512.
+ And these GPUs are not very fast.
+ And I don't know if it actually knows a way to use the three GPUs at the same time.
+ Which would be good, but...
+ I don't know if it works.
+ Anyway.
+ Let's download this thing.
+ So, to download the thing...
+ And like...
+ I read all in the documentation, but...
+ I just don't want to spend this time here.
+ Actually, I can add...
+ Because I have some stuff that are already written there.
+ So...
+ So, to get this model...
+ I'm going to have to do some things.
+ I think it's...
+ Let me just do something here.
+ I don't remember if I could do a command.
+ I don't know if...
+ Oh, it has wget.
+ wget is a downloader.
+ It can basically download stuff.
+ And what I want...
+ Something called content disposition.
+ What does it do?
+ Basically, this thing has a filename.
+ And I wanted to keep the same filename.
+ There is another thing that I could show.
+ Because this is the insider's version of the ESCode.
+ I have access to chadpd inside of it.
+ So it can just help me do this.
+ Also, I can just do...
+ Oh, yeah.
+ What is this?
+ Oh, yeah. Content disposition.
+ Yeah, this is the name.
+ Like, on the content disposition header...
+ This is the filename.
+ And there is also something called directory.
+ Directory prefix.
+ Yeah, directory prefix.
+ Because we have to save this thing...
+ Inside the models folder.
+ Where is it?
+ Yeah, it has the models folder.
+ And StableDiffusion, right?
+ Yeah, it actually has a file saying here.
+ Put StableDiffusion checkpoints here.
+ So if I just do...
+ Models and then...
+ StableDiffusion.
+ And I apply this command.
+ It will probably...
+ Download this very fast.
+ 40 megabytes.
+ Let me see if this thing finished.
+ It got really crazy.
+ It has no idea what is this.
+ Like, it's interesting.
+ Like, the base...
+ StableDiffusion is kind of crazy.
+ It generates these crazy results.
+ Did you interrupt it?
+ Or is it finished?
+ I think it finished.
+ Yeah, you can see here.
+ And also, Vivo provides problems.
+ So anyway.
+ Yeah, you see.
+ It went back to 2 gigabytes.
+ It's still downloading.
+ Actually, one thing that I forgot...
+ Is that I started by cloning the...
+ The ICD in this folder.
+ Just to remember all my stuff.
+ Like, I cloned ICD.
+ Okay, it downloaded.
+ So if it downloaded now...
+ I can just click here.
+ And it has the settings.
+ And then...
+ Let's just try the...
+ The Hellboy there.
+ Where are you?
+ Okay, let's try the Hellboy.
+ So for what I understood...
+ Because I don't have much experience running this.
+ I'm not going to be able to put the Laura.
+ So it's probably going to be...
+ Strange results.
+ Sorry.
+ So we have the text to image.
+ Something like this.
+ Because if I put this...
+ It just says I couldn't find this Laura.
+ Maybe we can try this there.
+ They have the negative prompt.
+ Like, the things that I kind of...
+ I don't understand this.
+ Because he says...
+ No horn.
+ And then the negative prompt is...
+ Horn.
+ But there is a horn.
+ So...
+ No, no.
+ He says no horn wears.
+ Yeah, no horn.
+ And then negative prompt...
+ The negative has horn.
+ So it's like...
+ It's not supposed to have any horn.
+ But my final image has horn.
+ At least for me.
+ Anyway.
+ And then let's just check the rest.
+ Because it has the samplers.
+ DPM++2MSDA.
+ Chorus.
+ This is this thing.
+ 2M.
+ SD chorus.
+ Sampling step.
+ 30 steps.
+ Okay.
+ So this makes it 4.
+ C...
+ I don't understand exactly what these hyperparameters are.
+ But...
+ 7.5.
+ I think it's this thing.
+ 7.5.
+ And then we have the C.
+ The C is very important.
+ Because it's what's going to generate the initial...
+ Initial noise image.
+ And it also says something called clip skip.
+ So I have no idea what it is.
+ Anyway, let's just try it.
+ Generate.
+ It should be faster because I reduced the...
+ Oh!
+ Oh, that's nice.
+ And it still has horns.
+ You can try downloading the image.
+ No, I think...
+ Can you scroll up?
+ A little bit.
+ Maybe in the front.
+ With no horn wears.
+ Basically what it says is like...
+ The Hellboy has like a horn.
+ Which is cut.
+ So it takes that into account.
+ That there is no wear.
+ So this is...
+ It will generate the image...
+ Where the horns are intact.
+ But it...
+ I don't understand because...
+ If you remove that.
+ Like no horn wears.
+ I think if you change it.
+ I think it will be something different.
+ But I think it wears coats, no?
+ Okay.
+ With a coat jacket in the middle.
+ I think it will...
+ Yeah, there it is.
+ It has nothing to do with Hellboy.
+ It looks like Dracula or something.
+ Yeah, but it's very cool.
+ Anyway, we can...
+ Let me see what happens if I...
+ No horns.
+ If I take this thing out.
+ Do I have huge horns?
+ It's similar to the first one, I think.
+ Ah, okay.
+ But more reds, maybe?
+ What happens if I put this back?
+ I don't think we can...
+ It's good that it's very fast.
+ So it can iterate a lot.
+ I don't think we can generate a Hellboy without horns.
+ But actually, this is the thing.
+ I didn't put the Laura.
+ You see there is a Hellboy Laura.
+ So this Laura, I think it would probably help a bit.
+ But I don't know how to...
+ Did you try with Laura?
+ Did you try this Laura?
+ Like if I put this...
+ Just to show you what happens.
+ If I put this here.
+ Yeah.
+ It says that I couldn't find the model or something.
+ Or it just tries.
+ But I think it gives an error.
+ Yeah, failed to find Laura's Hellboy.
+ You see?
+ It generated the same image.
+ Yeah, because the Laura is another file that I have to download.
+ But I don't know how to find it.
+ It's not here.
+ Maybe...
+ Ah, maybe it's this thing.
+ I have no idea where to...
+ Actually, you see, it has texture inversion in the process too.
+ It has some other stuff that we are not using.
+ We are just using the plain model.
+ But anyway.
+ That was the first step.
+ First step we got.
+ It's running.
+ It's running, it's working.
+ Let's go to the second step that is the control nets.
+ Control nets.
+ From what I remember.
+ How do I do this?
+ Again.
+ There is a way to...
+ Yeah.
+ Search.
+ Control nets.
+ I think it's...
+ Control nets.
+ Do you see it?
+ No, but it has a different name.
+ I found the...
+ Control nets.
+ I also have to download from this place the models.
+ But this was also a mistake that I made.
+ Yeah.
+ Control nets.
+ GitHub.
+ Web UI.
+ Something like this.
+ Yeah, this thing.
+ SD Web UI control nets.
+ Let me just go back here.
+ SD Web UI.
+ But I don't see the...
+ Anything.
+ The third one.
+ SD Web UI control nets.
+ Yeah, this one.
+ It's this one.
+ Manipulations.
+ Yeah.
+ Web UI...
+ So...
+ This is the part that becomes a bit more complicated.
+ So, it's going to install it.
+ Let me show you guys here.
+ Because it always shows the command.
+ You see?
+ Like, it's installing.
+ Like, couldn't find Laura name.
+ Oh, boy.
+ Stuff, stuff, stuff.
+ So, after it's installed, we actually have to reload this whole thing.
+ Like, installed.
+ I have to go...
+ There's also something in the settings, right?
+ Yeah.
+ But I think it only shows up...
+ After the reload.
+ Yeah, after the reload, right?
+ Anyway.
+ Let's reload.
+ Last time I did this, it basically broke.
+ Yeah.
+ It says namespace.
+ It creates a bug here.
+ I don't know.
+ So, I just run it again.
+ So, one thing that we have to do, actually, is that the control net, when we install it...
+ This was a problem that took me, like, one hour or so.
+ It doesn't come with the models by default.
+ Like, you have to download these models to use it.
+ Otherwise, it does nothing.
+ It doesn't even generate an error.
+ It just says...
+ I couldn't find something.
+ But it's, like, in the middle of a lot of strings.
+ But anyway, let me go back here.
+ Because what I want to show is that, like, I have to...
+ What I did was...
+ Where is it?
+ I came here.
+ File inversion.
+ There's something...
+ Yeah, clone repository.
+ Because you have to do this.
+ And then you have to clone it.
+ Or, I mean, you can also install one by one.
+ But, like...
+ I don't know if it's going to happen.
+ That's one of the reasons of using Docker is better.
+ Because you can just...
+ Control whatever you want.
+ Yeah, this is one of the problems.
+ Because you cannot install it like that.
+ Okay, I'm going to do a workaround.
+ I'm going to just do...
+ Yeah, I'm going to just do a workaround.
+ And install one by one by hand.
+ But what I wanted was the...
+ Yeah, let's do Kenny.
+ The Kenny image.
+ Our server?
+ I asked Nishima to make my own account.
+ He didn't make...
+ No, it's not a GitHub account.
+ He just asked for your GitHub, I think.
+ And adds you to the CVLab organization.
+ So we don't get, like, a new GitHub account?
+ No, I mean, you can...
+ With the email, you can generate a new one.
+ But I don't recommend that to work.
+ Things are harder for Windows users.
+ According to that server.
+ So, to use the...
+ Let me just do something.
+ Control Nets.
+ So, to use the Control Nets...
+ Like, I got the Kenny Edge one.
+ And I have to put...
+ You see, Extensions, SD, WebUI, and then you have Models here.
+ It only has the YAML files.
+ This is the same content that you have in this folder.
+ But it doesn't come with these Models, because it's an LFS.
+ Large File Service.
+ From GitHub.
+ From Git.
+ So, but anyway.
+ Just copy relative...
+ What's here?
+ So, Extensions, Models.
+ Then I'm just gonna...
+ I'm gonna do one by one.
+ It's downloading.
+ Let's go back to Stable Diffusion.
+ Because now, what happens is that on the bottom here, I have Control Nets.
+ You see?
+ 1.1.222.
+ And then, it has this Kenny.
+ Like, if I click Kenny here, it has something.
+ But it has no Model.
+ So, after it installs, I have to do this again.
+ Now I found the Model, you see?
+ However, I don't know if this is a bug or not.
+ But when I tried using this with the text-to-image, it didn't really work very well.
+ But let's try with the image-to-image.
+ And now, to get the image-to-image, let's start with something from Unsplash.
+ Or just Google Image.
+ No, we have to...
+ This is running locally, so it's gonna...
+ Alright, let's just stop Google Images.
+ Try... I don't know.
+ We can also get one of these images, if you guys want to try this.
+ I just want to... Let's say...
+ Tick.
+ Dark.
+ Dancing.
+ Person.
+ It shows anything that I want.
+ What the hell is this?
+ No, I don't know.
+ I've not installed it.
+ Yeah, no idea.
+ Maybe this one is good.
+ Let's try this one.
+ Because I want a small image.
+ Copy image.
+ It's gonna try to find my file.
+ Okay.
+ It's just an example.
+ So let's grab the same stuff.
+ The devil thing.
+ Let's make them a bit different.
+ So I'm gonna put this.
+ The controller doesn't work.
+ I'm gonna put this again.
+ This is one of the problems.
+ I don't know if there's a way to save it.
+ Oh.
+ Yeah, you can save it by doing tnginfo.
+ You have to download this image.
+ I see.
+ Okay, so let's do the DPM.
+ So this is a different model.
+ Instead of doing prompt to image, you do prompt plus image.
+ To some image.
+ Yeah, so it's DPM to SD cards.
+ I think this was 30 steps.
+ This was 7.5.
+ It now has denoising strength.
+ I don't even know what it is.
+ This is the seeds.
+ Then let me do...
+ Oh, no.
+ It wasn't the right one.
+ Sorry, sorry, sorry.
+ It doesn't work.
+ Okay.
+ So one thing that I...
+ Now, how control.net works.
+ So I'm gonna...
+ It might expect that you want to use a different image.
+ But what I want is to use the same image.
+ Does not copy image.
+ Now I got it.
+ And then I want to enable, I think.
+ Allow preview.
+ Only has one unit.
+ We can add others later.
+ So I'm gonna use Kenny.
+ I found the model.
+ Nice.
+ This is as far as I got.
+ Do you recommend anything else?
+ Like preprocessor resolution or I don't know what.
+ Yeah, I never touch those stuff.
+ So we click here, right?
+ Yeah.
+ And then it generates this Kenny part.
+ So now let's do the generation.
+ Okay.
+ Oh, yeah.
+ Okay, now it makes sense.
+ Because it's like...
+ Yeah, but there's no face as you see.
+ We can change something like...
+ Let's take the Hellboy out.
+ Muscular devil, man.
+ Just...
+ Interesting.
+ It's the same thing.
+ The same...
+ As you can see, it's the same pose.
+ But now it's like...
+ I don't know, Freddie Mercury here.
+ Oh, yeah.
+ I have no idea.
+ It's not the devil anymore.
+ Yeah, let's do the Hellboy.
+ Anyway.
+ This is what we have.
+ This is the basics.
+ We got it working.
+ So let's now get a video.
+ Let's see how to do this with a video.
+ I don't know.
+ What do you guys want to look for?
+ I don't know.
+ I can do just videos in here.
+ Get YouTube.
+ Let's see what YouTube has to show me.
+ It is not good.
+ Probably not.
+ Let's check on me.
+ Let's check on her.
+ I have no idea.
+ It's the same thing.
+ It's a song.
+ It doesn't load the rest.
+ It's the same thing.
+ But, let's see when to download it.
+ People are...
+ New TikTok guys.
+ No, this is not I knew.
+ People?
+ It's people?
+ Damn.
+ Why is this...
+ This website was better before.
+ I can just do 40p.
+ You can use Brave, you know?
+ It locks all the stuff.
+ Yeah.
+ Yeah.
+ I don't know.
+ Yeah.
+ It should be...
+ Possibly, yeah.
+ I think I can actually download directly from YouTube.
+ Nowadays, but...
+ No, it's just that...
+ I remember this from old age.
+ Just type pp in the URL.
+ Y2Mate.
+ What do you guys want to...
+ Most viral dances on the internet.
+ That's what I want.
+ Most viral dances on the internet.
+ But this has two people.
+ I was thinking about this dances of two people.
+ You can use a background with people.
+ Before.
+ This is good.
+ I want this one.
+ Okay, let's get this one.
+ Let's get this one.
+ No, I want this one.
+ Yeah.
+ How do I do this?
+ You can just like...
+ Maybe you should...
+ Download.
+ It has a download button.
+ This is new.
+ Wow.
+ This is new.
+ It's like offline.
+ No, you have a...
+ Yeah, you're sure.
+ It's gonna give me the file.
+ No, you have to still download the file.
+ It's just like...
+ Damn.
+ But I want this one.
+ I don't know.
+ I don't want this one anymore.
+ Download.
+ YouTube file.
+ Yeah, like YouTube SS.
+ You mean?
+ Like this?
+ Oh, no.
+ Not secure.
+ Getting my data.
+ Getting my data.
+ So this is the thing.
+ I did this.
+ YouTube PP.
+ And it redirects me to this thing here.
+ But it has too many.
+ Let's get this one anyway.
+ Let me just see something.
+ YouTube DL.
+ I'm gonna have to install this on the...
+ Because this is actually a problem.
+ I have to put it on the...
+ I have to upload it on the SSH after.
+ Most viral dances.
+ Let me just...
+ Let me just...
+ Like viral.
+ I could put virus.
+ Virus.mp4.
+ Anyway.
+ So you can't access this one?
+ SS YouTube?
+ Yeah.
+ I already downloaded.
+ It's fine.
+ Let me just check.
+ How do I cut this?
+ I went to edit just to get this part.
+ Here.
+ This is the thing.
+ Okay.
+ No.
+ Only this guy in the car.
+ Yeah.
+ This is fine.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Done.
+ New clip.
+ Viral guy.
+ With...
+ What is this?
+ Why did it save?
+ Let me just...
+ Let me just see something.
+ Let me just...
+ Yeah.
+ I can just do viral.
+ Oh, yeah.
+ Here.
+ Okay.
+ So I want to move it inside here somehow.
+ Oh, actually.
+ No.
+ This is something good about this distribution.
+ It finds my stuff.
+ However, I cannot put the video directly, right?
+ I have to convert to images.
+ How did you do it?
+ I was thinking of using FFmpeg.
+ Yeah.
+ I also use...
+ There's also an online website that can do it.
+ Called Easy GIF.
+ I already have FFmpeg.
+ I think we can just use it here.
+ So...
+ Let me just...
+ Move it to downloads anyway.
+ This is...
+ Okay, guys.
+ This is good.
+ This is going to be our test subject.
+ It's fixed camera.
+ Guys in the middle.
+ Looks good.
+ So to do FFmpeg...
+ I'm not sure if you guys know FFmpeg.
+ I don't know.
+ It's like...
+ How do you say it in English?
+ Swiss knife.
+ Of video stuff.
+ Okay.
+ So...
+ FFmpeg.
+ Convert.
+ And I already have it installed.
+ It should be easy to do this.
+ Yeah, so you can just...
+ You see?
+ One image every second.
+ No, I don't want too many.
+ I want every frame.
+ One image every minute.
+ No, I want one per frame.
+ Convert each frame to image.
+ I'm going to have to go to JADDPT.
+ I just want it working.
+ JADDPT.
+ There's a bunch of tools today.
+ It's not that.
+ It's my Google account that I use.
+ Okay.
+ How to convert an mp4 video to a...
+ Okay, this is what I wanted.
+ Yeah.
+ No breakdown.
+ Just copy code.
+ So to do this...
+ Let me get another one.
+ Download viral guy with mask.
+ So we have to do this thing, right?
+ Let me just copy this.
+ No, damn it.
+ Just copy this.
+ Why is it...
+ Download viral guy with mask.
+ And then I want...
+ I don't know, images slash...
+ I don't need output.
+ Just the D.
+ It's fine.
+ VF.
+ Conversion failed.
+ Could not open file.
+ This is JADDPT.
+ I want to...
+ Yeah.
+ It should work, right?
+ Maybe it needs the folder.
+ Make clear.
+ Download images.
+ Okay.
+ Could not open file.
+ Let me just put this.
+ The folder images exists.
+ Maybe it has to be downloads.
+ Oh, yeah.
+ It was that.
+ Okay.
+ I have seven frames.
+ It should be good enough.
+ Is it really each one one frame?
+ Because the video has more than a second, right?
+ Yeah, I don't know.
+ It's getting...
+ Okay.
+ Now I need each image...
+ Each frame to be an image.
+ FPS 25.
+ Maybe this is going to work.
+ FPS 25.
+ Okay.
+ Now it seems like it's doing more of a work.
+ It doesn't have to be 25 to do this.
+ Because it's going to generate a lot of images, right?
+ It generates 181.
+ Let's reduce this.
+ Let's reduce.
+ I think this is too much.
+ Also, did you see a difference when the aspect ratio was vertical?
+ Because once I tried with a vertical one, it didn't work very well.
+ But maybe it was because I didn't set up the configurations.
+ Let me do 12 frames.
+ Yeah, the image has to look like the output.
+ Yeah, I think I have to adjust the output.
+ The same aspect ratio.
+ 87.
+ What do you think about 87?
+ Let's do this.
+ I don't have much time.
+ Okay, so how do I do this?
+ Batch?
+ Yeah, Batch.
+ Click Batch.
+ Batch.
+ It has to be local, right?
+ Okay, I can just put it here.
+ Let's just add an images folder here.
+ I think this works.
+ Copy images. Copy folder.
+ Copy, copy, copy, copy.
+ Because it's transferring via the SSH now, you see?
+ That's why it's not so fast.
+ Copy images.
+ I hate that it doesn't really tell you what's going on.
+ While this goes, let me just download some more files.
+ Which one do you think is good?
+ Depth maybe? OpenPose?
+ Let me do OpenPose.
+ Yeah, OpenPose.
+ Copy link address.
+ Go back.
+ Now it gets that process.
+ Yeah, basically it finds the position.
+ I think it's good for depth.
+ SD15.
+ OpenPose.
+ Maybe we can put this file.
+ I mean, I put make file, but maybe this could be an SH file.
+ It's downloading.
+ Is the images folder here already?
+ Okay, we have the images folder.
+ Let me go back.
+ So, I have images.
+ I'm going to have an outputs folder then.
+ I think that's okay.
+ New folder.
+ Outputs.
+ Images.
+ Outputs.
+ InPaintBatchMassDirectory.
+ What is this?
+ You don't need that.
+ Yeah, I don't think I need this, right?
+ Control-Net.
+ Input directory.
+ Ah, because maybe I have to pass all the images through the OpenPose and the KineEdge before.
+ You have to feed the final image to it.
+ I don't think you have to do it, because if it's empty, it will just use...
+ Input directory.
+ I see, I see, I see.
+ And then for Control-Net, I also need to use two units, right?
+ So, I think I have to go to Settings.
+ Control-Net.
+ What's it for? I don't know.
+ Maybe I have to apply settings again.
+ Reload UI.
+ Restarting the UI.
+ Reloading.
+ Reload.
+ I'm going to kill it.
+ It's running again.
+ Launching WebUI with arguments.
+ Okay.
+ Okay.
+ It's going to have to put all the data again.
+ Let's check.
+ Control-Net.
+ Okay, now it has four units.
+ So, about this.
+ So, it has also a batch here.
+ Input directory.
+ But then, like, for these units, I can just say enable.
+ And probably not allow preview.
+ But then, like, canny, right?
+ Canny.
+ What do you think?
+ My prompt is more important.
+ I saw a lot of difference when I used this.
+ Yeah.
+ Okay.
+ Batch.
+ Let's do...
+ OpenPose, right?
+ OpenPose.
+ Just to show you guys what OpenPose looks like.
+ Is it like...
+ I think, yeah, OpenPose is like...
+ Yeah, like, this image, for instance.
+ I can do allow preview and do OpenPose.
+ Like, it finds this body here and it's a pose.
+ I think they were like...
+ It takes a while.
+ Some other ones as well.
+ Because OpenPose is from, like, TensorFlow, right?
+ Not necessarily.
+ The most famous one is called detection by...
+ OpenPose is the problem, I think.
+ No, there's, like, pose estimation is the problem.
+ OpenPose is, like, the model.
+ Yeah, it's the model.
+ But I think there's, like, another one as well.
+ Yeah, so, in the end, it looks like this.
+ Yeah, but this is the problem.
+ This thing here is a bit closed.
+ If we want to use a different one, we have to implement it.
+ Maybe we can do this next week, I don't know.
+ Like, streamline this process here.
+ Instead of having to go through all these steps, you know?
+ Yeah, this is like a media pipe, I think.
+ Because, like, previously I worked on this stuff for a bit and media pipe was better.
+ But I don't think it had that option there, right?
+ No, it just has the model that you installed.
+ That they know that it works.
+ But anyway.
+ So, it generates this.
+ I'm gonna just put batch.
+ Yeah, so we got the, okay.
+ We got the images now.
+ Yeah.
+ However, this is all.
+ Let's go through everything again.
+ Because I have to finish it here.
+ There's an easier way to do that.
+ Just download this image.
+ Yeah.
+ Download?
+ Like, save the image?
+ Yeah.
+ Then we have to put it in PNG info.
+ PNG info?
+ Yeah, it will take everything.
+ Metadata.
+ Hmm, good to know this.
+ Yes, on top.
+ Where is it?
+ PNG info.
+ Yeah.
+ The tab next to image.
+ Image to image.
+ It's the tabs.
+ Yeah.
+ Ah, I see.
+ Yeah.
+ What do we do here?
+ Just put it there.
+ Oh, it's in the metadata.
+ Yeah.
+ Let's see.
+ And then you can send that to.
+ Send to image to image.
+ Yeah.
+ This is kind of taking care of everything here.
+ I mean, it's a way of doing this.
+ So let's do now batch.
+ I said it was images.
+ Output is going to be outputs.
+ I got all the parameters here.
+ We have two control nets.
+ Just run it?
+ It's going to take some time.
+ 18 minutes, right?
+ Yeah.
+ Ah, there is one problem.
+ The size, the final size.
+ It's, should it be like this?
+ Because I need to.
+ What's the size of the video?
+ I mean, PNG.
+ It should show up here if I open it.
+ File.
+ Maybe if I get the.
+ I know how to get this.
+ There is a getting full.
+ Yeah, 480 by 8.
+ Maybe I can do this.
+ So 480.
+ By 5.4.
+ 5.4.
+ Okay.
+ Generate.
+ Are you ready?
+ Yes.
+ Let's see.
+ How is it going?
+ Increasing the GPU.
+ Increasing the CPU.
+ CPU is 300%.
+ Wow.
+ What is it?
+ Jesus?
+ It has a very like church.
+ Like, like, like, like Castlevania.
+ Yeah.
+ 30 minutes.
+ Okay.
+ Let's suppose it works.
+ That's one of the problems.
+ Like, there were, there were too many images.
+ I think maybe I should have reduced this.
+ How many are there?
+ I think 86.
+ Yeah, 80.
+ I can just do FPS 6.
+ And then.
+ It's funny.
+ The sound comes from here.
+ I don't know why.
+ But the video sounds come from here.
+ Yeah.
+ So this is like half 40.
+ Yeah.
+ It will take 15 minutes.
+ This is much better, I think.
+ Oh, but.
+ Oh, okay.
+ Yeah, I mean.
+ The information is lost.
+ But.
+ I think we can see some of the results getting out in here.
+ Image, image.
+ Oh, I couldn't find the, the Laura.
+ You see?
+ It's saying that.
+ I couldn't find the Laura.
+ I couldn't find the Laura.
+ You see here, every step.
+ Like for, it runs for each.
+ This is one of the problems, you see?
+ That I don't like this tool.
+ It only uses one of the GPUs.
+ It only generates like one.
+ I see.
+ After the other.
+ So it could like split in the multiple GPUs.
+ Maybe there is an option for this.
+ I'm not sure.
+ We could look for an option to do this.
+ Like I haven't even connected to a GPU.
+ No, it's fine, it's fine.
+ I'll connect to a server and see.
+ What I want to do actually.
+ Like this is more.
+ How can I say?
+ Exploratory approach.
+ Let's say we want to make a factory now.
+ Factory of videos.
+ Yeah.
+ Like if we think about this.
+ What do you do?
+ Like we have these commands, of course.
+ Yeah.
+ But.
+ How to automate everything, right?
+ I think that the hardest part.
+ There is one command that I didn't put.
+ There was the conversion here.
+ This one.
+ It's good to do this.
+ Like.
+ You want to basically.
+ What do you want to do is like just.
+ Get a video.
+ Drop it somewhere.
+ Yeah, drop it somewhere.
+ And the video generates.
+ Oh, this video I didn't process yet.
+ I see.
+ So it generates.
+ Yeah.
+ I mean, of course, I'll probably have to input some kind of style.
+ Maybe.
+ Yeah.
+ Maybe two things.
+ The video.
+ Yeah.
+ And the image from Civit AI.
+ See?
+ The.
+ Oh, OK.
+ It's like because it has the metadata and the stuff.
+ So maybe with this.
+ I think using the LoRa could help a lot.
+ In this part here.
+ I also wanted to use multiple GPUs.
+ Yeah, but.
+ So, yeah, we can actually work on this.
+ Like.
+ Like creating end to end stuff.
+ Yeah.
+ At least for like small videos at least.
+ Yeah, yeah.
+ Right.
+ Of course.
+ Like.
+ It could be.
+ It could be for now just a command.
+ You know, like.
+ Yeah.
+ Command line.
+ I got input fold.
+ Like.
+ Input video.
+ And input image.
+ Input metadata.
+ Input image.
+ And then we like get everything.
+ OK.
+ This is it.
+ And use multiple GPUs.
+ And.
+ Right.
+ Like process.
+ The best way that is possible.
+ A number of frames.
+ Because now it's going to generate a bunch of images too.
+ We are going to have to.
+ To.
+ Again.
+ Like build a video from it.
+ And the music is not even being used because it's a bunch of images.
+ So.
+ Right.
+ The audio in the end also.
+ You know.
+ Yeah.
+ And also we'll have to speed up the audio.
+ To match the.
+ Time length.
+ Of the.
+ Yeah.
+ Or we could.
+ Modified video.
+ We could interpolate the frames in the end.
+ Like to make it.
+ Have the same frame rates.
+ Yeah.
+ Because of course like.
+ I had a video that was 24 frames per second.
+ Now I have a video that's 6 frames per second.
+ Yeah.
+ It's not going to work very well.
+ We have to.
+ We have to do some frame interpolation or something.
+ Yeah.
+ It's generating a bunch of files.
+ You see it's 115 here.
+ Where is it?
+ Probably in the output folder.
+ Yeah.
+ Text to image?
+ What is going on?
+ These are the ones.
+ Ah.
+ These are the crazy ones that we tried before.
+ It is generating something somewhere.
+ Ah.
+ It's outputs.
+ Not outputs.
+ Ah.
+ Let's see.
+ It has ticked out there.
+ Yeah.
+ Because of the kenny edge.
+ I want to look at the second one.
+ It looks interesting.
+ Yeah.
+ It's the same seed.
+ So you see the background is very stable.
+ Yes.
+ What was the prompt again?
+ Church?
+ No.
+ I don't know if it had church.
+ What was it?
+ It was the.
+ This one.
+ Satanic devil.
+ Ah.
+ See it's more like I think satanic.
+ So it thought like.
+ Blue aura.
+ Church.
+ Dim light.
+ Ornate.
+ Ornate maybe.
+ Ornate.
+ Yeah.
+ Oh yeah.
+ Ornate.
+ Blue light.
+ We can also.
+ Yeah I think.
+ So this would be.
+ I know we are supposed just to have this one for this lab.
+ But I think if you guys are interested.
+ We could do the thing that I said like.
+ We could.
+ Instead of just.
+ In the github.
+ That we open.
+ We could have this command line interface.
+ Hmm.
+ It's very simple.
+ To do a command line interface in python.
+ So we could just literally just like.
+ Get a file.
+ And it would download the models that we need.
+ And it.
+ Has to download the model we need.
+ It has to get.
+ We could kind of.
+ Yeah.
+ We could kind of design this right now.
+ Let me just.
+ Why is this.
+ This thing is running.
+ Let's go to.
+ CD.
+ Download.
+ Developer.
+ Developer.
+ Python.
+ And then.
+ What is it?
+ Stable diffusion.
+ Quick.
+ I don't know if we want to keep this name.
+ Anyway.
+ Let me just.
+ Do a code here.
+ Then we can.
+ We can write some.
+ A readme.
+ With some.
+ Contributing.
+ Anyway.
+ It's getting cool.
+ Oh.
+ I want to see the end result.
+ Oh.
+ We can also like.
+ Remove the watermark.
+ Like there is a watermark.
+ Remover.
+ You know like.
+ Add some stuff.
+ If it's possible.
+ To remove the background.
+ From this.
+ Output readings.
+ Yeah.
+ The.
+ Oh.
+ It has a.
+ It's probably going to flicker a lot.
+ Because.
+ How it has a coat.
+ You see it's like.
+ I don't know what this is man.
+ And now it's changing.
+ What is this?
+ The blue.
+ Blue devil.
+ Blue spirits.
+ I don't know.
+ Yeah.
+ Seems like.
+ Blue spirits.
+ Yeah.
+ It's cute.
+ It's super devil.
+ With the.
+ Cute blue spirits.
+ Yeah.
+ But.
+ I mean.
+ It's a.
+ We are only using two control nets.
+ Yeah.
+ If we use more control nets.
+ Probably going to get even better.
+ You know.
+ Yeah.
+ And.
+ And like.
+ Let me just.
+ Where was it?
+ Oh yeah.
+ We don't have anything here.
+ Let me just create a readme.
+ So.
+ What is the name of it?
+ Stable.
+ Diffusion.
+ Video.
+ Video styler.
+ I don't know.
+ Think of something different later.
+ So.
+ What is the idea?
+ It generates this stuff.
+ It generates this random.
+ It's a compiler.
+ Yeah.
+ It's a compiler.
+ It generates this stuff.
+ Sorry.
+ So.
+ What is the idea?
+ CLI.
+ Command line interface.
+ That.
+ Receives.
+ The video.
+ As input.
+ Followed by.
+ An image.
+ Yeah.
+ Style image.
+ Metadata.
+ Or.
+ Prompt.
+ And.
+ Or.
+ Prompt.
+ And.
+ Model.
+ Because.
+ I also need a.
+ Model.
+ As the model.
+ And.
+ Converts.
+ It.
+ Accordingly.
+ That's basically the idea.
+ So.
+ Let me do an example.
+ In our chat.
+ DVD.
+ Please.
+ Yeah.
+ Maybe something like this.
+ So.
+ We're going to have.
+ Input.
+ Output.
+ Different name.
+ Metadata.
+ From the image.
+ And then.
+ Yeah.
+ Looks good.
+ Yes.
+ Yes.
+ Yeah.
+ So.
+ This would be like.
+ An example.
+ If you want.
+ But now.
+ Like.
+ We have to study.
+ How to do this.
+ You know.
+ Like.
+ One idea.
+ That I have.
+ About.
+ Like.
+ Command line interfaces.
+ In Python.
+ There are many ways.
+ To do them.
+ In Python.
+ There are built-in.
+ I don't like the built-in.
+ To be honest.
+ But there is a library.
+ Fire.
+ That is from Google.
+ That I.
+ I think it makes everything.
+ Simpler.
+ Yeah.
+ So.
+ In this.
+ In this library.
+ Like.
+ You can create a.
+ Kind of a class.
+ What is it?
+ Okay.
+ You create a class.
+ Like double.
+ And then you do fire.
+ Of this class.
+ And then.
+ It just become.
+ Like.
+ All the functions.
+ Here become.
+ The methods.
+ For the CLI.
+ You know.
+ It is very.
+ Very.
+ Customizable.
+ And stuff.
+ I can just start.
+ From this.
+ So.
+ Let me just do.
+ Let me just create a.
+ Requirements.
+ .txt.
+ And.
+ Python.
+ Vm.
+ Python dash.
+ M.
+ Vm.
+ Vm.
+ Source.
+ Vm.
+ Regenerating.
+ Stuff.
+ Okay.
+ I didn't finish.
+ New computer.
+ Excuse me.
+ Source.
+ Vm.
+ Being activated.
+ So.
+ We activate it.
+ You can install.
+ Fire.
+ Okay.
+ You can create.
+ A make file.
+ Make file is good to have.
+ Multiple comments.
+ So you can do install.
+ Yeah.
+ That is what I want.
+ Also do.
+ Activate.
+ Source.
+ Just to have some.
+ Some.
+ Comments here.
+ And like.
+ To run it.
+ Python.
+ Calculator.
+ What is the example.
+ It is.
+ Yeah.
+ Something like this.
+ Cannot open.
+ Calculator.
+ .py.
+ No such file.
+ Oh.
+ It is because it is main.
+ Main.
+ .py.
+ Okay.
+ It is.
+ It is working.
+ It is working.
+ Anyway.
+ Like.
+ This would be the start.
+ Of the interface.
+ I don't know.
+ Let's call it.
+ Styler.
+ Let's do this.
+ Python 2 stuff.
+ Let's do then.
+ Transform.
+ So.
+ As we said here.
+ In the.
+ Example.
+ Has an input.
+ Output.
+ Model.
+ Metadata.
+ So.
+ It needs an input.
+ It needs an output.
+ It needs a model.
+ It needs a metadata.
+ Okay.
+ And.
+ I don't know.
+ We have just to.
+ Let's just do a print for now.
+ Let me just try this.
+ File.
+ Input.
+ My file.
+ No.
+ It is transform.
+ Okay.
+ It didn't receive output.
+ Okay.
+ So.
+ This is our start.
+ I also need.
+ Then.
+ The.
+ Ignore.
+ Okay.
+ Ignore the VM.
+ Okay.
+ So.
+ This would be.
+ The first commit.
+ It is customary.
+ Git push.
+ Okay.
+ So.
+ This is our start.
+ No.
+ Not this one.
+ This one.
+ Okay.
+ Not this one.
+ Yup.
+ See.
+ As it receives a video as input.
+ Followed by a static image metadata or transform and SD model.
+ And SD model.
+ And converts it according.
+ Okay.
+ So.
+ What I.
+ We have to do now.
+ I don't know.
+ If I have time.
+ But.
+ The idea is now.
+ Like to uncover what exactly this is doing.
+ Yeah.
+ And.
+ You know.
+ Yeah.
+ First of all.
+ I will try this stuff.
+ Actually.
+ Actually, if, I mean, what other option?
+ I don't know if this is what you guys want,
+ but we could even use a, create an extension.
+ Like, instead of creating our own,
+ I mean, for now, maybe that's not the best idea.
+ Do you want to, like, fork that repo and do something else?
+ Because, you see, like,
+ we can actually create extensions for this,
+ and then our extension, just that the extension,
+ it doesn't create a new tab here, I think,
+ because we could have a video-to-video, you know, tab.
+ But maybe this is something for later.
+ Yeah.
+ For now, oh, I think it finished, actually.
+ Yeah, it's finished, or no.
+ No, yeah, GPU is in 0%.
+ So, now, let me do, let me ask JPT again.
+ Okay, now I want to put the images into a, okay.
+ So, let me just download this folder.
+ I want to do it here directly,
+ but that's when the problem is not using Docker.
+ I don't think it has FFmpeg, right?
+ Oh, it has FFmpeg.
+ I can do it here.
+ Nope, sorry.
+ Okay, so the original one is output,
+ and then frame rate is, what is the frame rate?
+ Oh, I think it's 12, right?
+ And then I want, let's call it my video.
+ Okay, it's here somewhere.
+ Okay.
+ Let's see if we can watch it.
+ And there's no audio.
+ In Green Gear, there's gonna be no audio.
+ Oh, and we did it in less than an hour.
+ If we actually do it for all the frames,
+ it will look so much better.
+ Yeah, it even got the car here.
+ Yeah.
+ Let's see it again.
+ I mean, the guy changes every frame,
+ but of course, with the control net,
+ I think we can enhance this a lot.
+ Because control net has 18 models,
+ we are just using two.
+ Do you imagine what these people will do with this shit?
+ What we are doing?
+ No, like for example, if we just,
+ you know, this is just for a product.
+ It's more like, now you have a video,
+ you can just maybe record somewhere.
+ These people do what they do best.
+ And then we just say that, give us your team,
+ you know, just like input your image and that's it.
+ And this video will be like this.
+ And I'm sure these guys will go crazy for this,
+ for this extension in that app or any app, you know?
+ Because this is actually cool.
+ So, and then they could like add music at the back.
+ I guess the only problem for something like this
+ that you saw the cost,
+ like we had to run a different machine that has GPUs
+ and it took 30 minutes.
+ No, no, yeah, that's like.
+ I mean, of course, this is the current moment,
+ but imagine in five years or even less.
+ No, this.
+ We could be the owners of the app.
+ No, this is actually not that bad because like.
+ You see, one thing that is very cool,
+ like his clothes, they don't change so much.
+ Like, I mean, the colors kind of are just kind of squished
+ because if you think the Kenny Edge and the OpenPost,
+ they don't conserve colors.
+ Yeah.
+ Because they only have the position of this stuff.
+ But it's like, you can see that the form of the clothes
+ is very, it's funny that there is one here
+ that basically the guy has abs.
+ No, but you know what?
+ Like, it will work.
+ Yeah.
+ Because they don't care.
+ Exactly.
+ As long as it looks cool, they don't care.
+ So like, because people are actually trying
+ to make videos like this right now.
+ Oh, what was that?
+ Yeah, absolutely.
