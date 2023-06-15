@@ -20,7 +20,7 @@ safe: true
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : plum # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -29,11 +29,11 @@ title_separator          : "|"
 subtitle                 : UTML # site tagline that appears below site title in masthead
 name                     : UTML
 description              : Bookmark to keep an eye on my project updates!
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://utml.tech # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : utml-tech/utml-tech.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/utml-logo-cropped.webp # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : utml.tech # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -107,16 +107,16 @@ social:
 analytics:
   provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : 380213528
+    tracking_id          : G-T3MT1C4ZQT  # TODO: currently .github.io, update for utml.tech
     anonymize_ip         : false # true, false (default)
 
 # Site Author
 author:
-  name             : Pedro Valois
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 
-  location         : Japan 🗾
-  email          : vaz.valois@hotmail.com
+  name             : UTML
+  avatar           : /assets/profile/utml-logo-cropped.webp
+  bio              : University of Tsukuba Machine Learning Circle
+  location         : Tsukuba, Japan
+  email            : utmachinelearning.tech@gmail.com
 
 # Site Footer
 footer: 
