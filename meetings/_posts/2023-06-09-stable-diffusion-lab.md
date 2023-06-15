@@ -1,6 +1,9 @@
 ---
 author: pedro
 header:
+  overlay_image: /assets/images/scott-graham-meeting-unsplash.webp
+  image_description: people in a meeting writing on a notebook while checking laptops
+  caption: "Photo by [**Scott Graham**](https://unsplash.com/@homajob)"
   actions:
     - label: YouTube
       url: "https://youtu.be/ztpWVZyim7k"

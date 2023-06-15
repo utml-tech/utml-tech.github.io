@@ -33,7 +33,7 @@ url                      : https://utml.tech # the base hostname & protocol for 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : utml-tech/utml-tech.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/utml-logo-cropped.webp # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/logo/utml-logo-cropped.webp # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : utml.tech # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : UTML
-  avatar           : /assets/profile/utml-logo-cropped.webp
+  avatar           : /assets/logo/utml-logo-cropped.webp
   bio              : University of Tsukuba Machine Learning Circle
   location         : Tsukuba, Japan
   email            : utmachinelearning.tech@gmail.com
