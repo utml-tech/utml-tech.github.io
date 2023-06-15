@@ -26,7 +26,7 @@ minimal_mistakes_skin    : plum # "air", "aqua", "contrast", "dark", "dirt", "ne
 locale                   : "en-US"
 title                    : utml.tech
 title_separator          : "|"
-subtitle                 : UTML # site tagline that appears below site title in masthead
+subtitle                 : # UTML # site tagline that appears below site title in masthead
 name                     : UTML
 description              : Bookmark to keep an eye on my project updates!
 url                      : https://utml.tech # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
