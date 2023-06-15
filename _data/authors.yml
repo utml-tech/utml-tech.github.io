@@ -9,7 +9,7 @@ pedro:
       url: mailto:vaz.valois@hotmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: phvv.me
+      url: https://phvv.me
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/pedrexus
@@ -18,7 +18,7 @@ pedro:
       url: https://www.instagram.com/pedrovvalois/
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin-in
-      url: &linkedin https://www.linkedin.com/in/pedro-henrique-vaz-valois-288b8a146/
+      url: https://www.linkedin.com/in/pedro-henrique-vaz-valois-288b8a146/
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
