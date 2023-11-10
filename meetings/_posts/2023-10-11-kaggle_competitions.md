@@ -1,5 +1,5 @@
 ---
-author: Dipesh
+author: dipesh
 tags:
   - labs
 title: "Lab 03: Kaggle"
