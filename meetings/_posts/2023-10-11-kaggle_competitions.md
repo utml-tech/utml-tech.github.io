@@ -5,7 +5,7 @@ tags:
 title: "Lab 03: Kaggle"
 ---
 
-##Kaggle Computer Vision Introductory Competitions
+## Kaggle Computer Vision Introductory Competitions
 
 - Dogs Vs Cats
 https://www.kaggle.com/competitions/dogs-vs-cats/data
